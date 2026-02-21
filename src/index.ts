@@ -48,7 +48,7 @@ async function init() {
                 "status": "faisanbridge status",
                 "abort": "faisanbridge abort",
             },
-            dependencies: {
+            devDependencies: {
                 "faisanbridge": "latest"
             }
         };
