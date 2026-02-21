@@ -1,0 +1,15 @@
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+.env*
+/dist
+.DS_Store
+*.pem
+.vscode

@@ -1,0 +1,9 @@
+node_modules/
+base/node_modules/
+src/
+tsconfig.json
+.env
+.gitignore
+dist/pages/
+dist/posts/
+dist/templates/

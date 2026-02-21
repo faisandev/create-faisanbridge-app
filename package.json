@@ -1,0 +1,24 @@
+{
+    "name": "create-faisanbridge-app",
+    "version": "1.0.0",
+    "type": "module",
+    "bin": {
+        "create-faisanbridge-app": "./bin/create-faisanbridge-app.js"
+    },
+    "files": [
+        "dist",
+        "base"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build"
+    },
+    "dependencies": {
+        "fs-extra": "^11.3.3"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "^11.0.4",
+        "@types/node": "^25.2.3",
+        "typescript": "^5.9.3"
+    }
+}
